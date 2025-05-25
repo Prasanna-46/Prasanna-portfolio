@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prasanna L - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="./Resources/styles.css">
+</head>
+<body>
+    <div class="bg-animation"></div>
+
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav-container">
+            <div class="logo">Prasanna L</div>
+            <ul class="nav-menu">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><button class="theme-toggle">🌙 Dark</button></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Prasanna L</h1>
+            <p class="hero-subtitle">Computer Technology Student & Developer</p>
+            <p class="hero-description">
+                Passionate about AI, Data Science, and creating innovative solutions. 
+                I transform complex problems into elegant code and love exploring the endless possibilities of technology.
+            </p>
+            <div class="cta-buttons">
+                <a href="#projects" class="btn btn-primary">
+                    <i class="fas fa-code"></i>
+                    View Projects
+                </a>
+                <a href="#contact" class="btn btn-secondary">
+                    <i class="fas fa-envelope"></i>
+                    Get In Touch
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>
+                    Hi, I'm Prasanna, a Computer Technology student with a deep passion for learning, coding, 
+                    and problem-solving. I thrive on tackling complex challenges, breaking them down into efficient solutions, and continuously 
+                    expanding my knowledge in the ever-evolving world of technology.
+                </p>
+                <p>
+                    From developing JavaScript-based applications to diving deep into Active Directory and IoT, 
+                    I love exploring new concepts and applying them through hands-on projects. My interests span across 
+                    Artificial Intelligence, Data Science, blending technical expertise with strategic thinking.
+                </p>
+                <p>
+                    I am currently honing my skills in JavaScript, HTML, CSS, and Python, with a keen interest in exploring 
+                    frameworks like React and Node.js. I am also delving into the world of databases, particularly MySQL, 
+                    to enhance my backend development capabilities.
+                </p>
+            </div>
+            <div class="about-image">
+                <img src="./Resources/Images/IMG_6956.jpeg" alt="Prasanna L" class="profile-img" />
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <h3 class="project-title">QuantumLedger</h3>
+                <p class="project-description">
+                    A decentralized ledger platform simulating a mini cryptocurrency system.
+Built with core Java components, it features secure transactions, wallet management, and blockchain validation using cryptographic hashing.
+                </p>
+                <div class="project-tech">
+                    <span class="tech-tag">Java</span>
+                    <span class="tech-tag">HashMap</span>
+                    <span class="tech-tag">Merkle Tree</span>
+                    <span class="tech-tag">Blockchain/Cryptocurrency</span>
+                </div>
+                <div class="project-links">
+                    <a href="#" class="project-link">
+                        <i class="fas fa-external-link-alt"></i>
+                        Live Demo
+                    </a>
+                    <a href="https://github.com/Prasanna-46/QuantumLedger" class="project-link">
+                        <i class="fab fa-github"></i>
+                        Code
+                    </a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <h3 class="project-title">MyGit</h3>
+                <p class="project-description">
+                    A lightweight version control system inspired by Git.
+Developed in Python to demonstrate core versioning concepts like staging, committing, and file tracking from scratch.
+                </p>
+                <div class="project-tech">
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">Git/GitHub</span>
+                    <span class="tech-tag">Command-Line</span>
+                    <span class="tech-tag">Version Control</span>
+                </div>
+                <div class="project-links">
+                    <a href="#" class="project-link">
+                        <i class="fas fa-external-link-alt"></i>
+                        Live Demo
+                    </a>
+                    <a href="#" class="project-link">
+                        <i class="fab fa-github"></i>
+                        Code
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <h2 class="section-title">Technologies & Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-item">
+                <div class="skill-icon">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHZpZXdCb3g9IjAgMCAyNTYgMjU2IiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8cmVjdCB3aWR0aD0iMjU2IiBoZWlnaHQ9IjI1NiIgZmlsbD0iI0U5NEY1RSIvPgo8cGF0aCBkPSJNNDMuOTggMTQ0LjZMNTguOTggMTY1LjJMNTguOTggMTk0LjRINDMuOThWMTQ0LjZaTTg2LjU5NiAxNjEuOTJMODYuNTk2IDE5NC40SDEwMS41OTZWMTY4LjY0SDExOC4xNjZWMTU0LjU2SDEwMS41OTZWMTQ0LjZIODYuNTk2VjE2MS45MlpNMTU4Ljc1NiAxNDQuNkgxNzMuNzU2VjE5NC40SDE1OC43NTZWMTg0LjQ0SDE1MS42MzZWMTc0LjQ4SDE0NC41MTZWMTY0LjUySDEzNy4zOTZWMTU0LjU2SDE1MS42MzZWMTQ0LjZIMTU4Ljc1NloiIGZpbGw9IndoaXRlIi8+Cjwvc3ZnPgo=" alt="HTML5" style="width: 40px; height: 40px;" />
+                </div>
+                <div class="skill-name">HTML5</div>
+            </div>
+
+            <div class="skill-item">
+                <div class="skill-icon" style="color: #1572B6;">
+                    <i class="fab fa-css3-alt"></i>
+                </div>
+                <div class="skill-name">CSS3</div>
+            </div>
+
+            <div class="skill-item">
+                <div class="skill-icon" style="color: #F7DF1E;">
+                    <i class="fab fa-js-square"></i>
+                </div>
+                <div class="skill-name">JavaScript</div>
+            </div>
+
+            <div class="skill-item">
+                <div class="skill-icon" style="color: #3776AB;">
+                    <i class="fab fa-python"></i>
+                </div>
+                <div class="skill-name">Python</div>
+            </div>
+
+            <div class="skill-item">
+                <div class="skill-icon" style="color: #007396;">
+                    <i class="fab fa-java"></i>
+                </div>
+                <div class="skill-name">Java</div>
+            </div>
+
+            <div class="skill-item">
+                <div class="skill-icon" style="color: #FA7343;">
+                    <i class="fab fa-swift"></i>
+                </div>
+                <div class="skill-name">Swift</div>
+            </div>
+
+            <div class="skill-item">
+                <div class="skill-icon" style="color: #F05032;">
+                    <i class="fab fa-git-alt"></i>
+                </div>
+                <div class="skill-name">Git</div>
+            </div>
+
+            <div class="skill-item">
+                <div class="skill-icon" style="color: #333;">
+                    <i class="fab fa-github"></i>
+                </div>
+                <div class="skill-name">GitHub</div>
+            </div>
+
+            <div class="skill-item">
+                <div class="skill-icon" style="color: #2496ED;">
+                    <i class="fab fa-docker"></i>
+                </div>
+                <div class="skill-name">Docker</div>
+            </div>
+
+            <div class="skill-item">
+                <div class="skill-icon" style="color: #339933;">
+                    <i class="fab fa-node-js"></i>
+                </div>
+                <div class="skill-name">Node.js</div>
+            </div>
+
+            <div class="skill-item">
+                <div class="skill-icon" style="color: #4479A1;">
+                    <i class="fas fa-database"></i>
+                </div>
+                <div class="skill-name">MySQL</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <h2 class="section-title">Let's Connect</h2>
+        <div class="contact-content">
+            <p class="contact-description">
+                Have an interesting project or opportunity? I'd love to hear about it! 
+                Let's collaborate and create something amazing together.
+            </p>
+            <div class="contact-links">
+                <a href="https://github.com/Prasanna-46" class="contact-link" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-github contact-icon"></i>
+                    GitHub
+                </a>
+                <a href="https://www.linkedin.com/in/prasanna-l-b99767356/" class="contact-link" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-linkedin contact-icon"></i>
+                    LinkedIn
+                </a>
+                <a href="mailto:your.email@example.com" class="contact-link">
+                    <i class="fas fa-envelope contact-icon"></i>
+                    Email
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2025 Prasanna L. Built with passion and modern web technologies.</p>
+    </footer>
+
+    <script>
+        // Mobile Navigation Toggle
+        const hamburger = document.querySelector('.hamburger');
+        const navMenu = document.querySelector('.nav-menu');
