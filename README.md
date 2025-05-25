@@ -28,7 +28,7 @@ A modern, responsive portfolio website built with **HTML**, **CSS**, and **JavaS
 
 ## 📸 Preview
 
-![Portfolio Screenshot](./Resources/Images/IMG_6956.jpeg)
+![Portfolio Screenshot](./Resources/Images/Preview.png)
 
 ---
 
