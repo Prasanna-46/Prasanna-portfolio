@@ -42,7 +42,7 @@ Computer Technology Student & Developer
 
 ## 🌐 Live Demo
 
-🔗 [View Portfolio]() &nbsp;
+🔗 [View Portfolio](https://prasanna-46.github.io/Prasanna-portfolio/) &nbsp;
 
 ---
 
