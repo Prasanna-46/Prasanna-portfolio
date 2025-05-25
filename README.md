@@ -32,19 +32,6 @@ A modern, responsive portfolio website built with **HTML**, **CSS**, and **JavaS
 
 ---
 
-## 📂 Folder Structure
-
-portfolio/
-├── index.html
-├── Resources/
-│ └── style.css
-│ └── Images/
-│   └── IMG_6956.jpeg
-├──README.md
-
-
----
-
 ## 🧑‍💻 Author
 
 **Prasanna L**  
