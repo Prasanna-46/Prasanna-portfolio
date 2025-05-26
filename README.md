@@ -28,20 +28,7 @@ A modern, responsive portfolio website built with **HTML**, **CSS**, and **JavaS
 
 ## 📸 Preview
 
-![Portfolio Screenshot](./Resources/Images/IMG_6956.jpeg)
-
----
-
-## 📂 Folder Structure
-
-portfolio/
-├── index.html
-├── Resources/
-│ └── style.css
-│ └── Images/
-│   └── IMG_6956.jpeg
-├──README.md
-
+![Portfolio Screenshot](./Resources/Images/Preview.png)
 
 ---
 
@@ -55,7 +42,7 @@ Computer Technology Student & Developer
 
 ## 🌐 Live Demo
 
-🔗 [View Portfolio]() &nbsp;
+🔗 [View Portfolio](https://prasanna-46.github.io/Prasanna-portfolio/) &nbsp;
 
 ---
 
